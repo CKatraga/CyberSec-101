@@ -1,0 +1,104 @@
+site_name: Chandana's Cyber Path
+site_description: A visual, hands-on cybersecurity course mapped to the AUM MS Cybersecurity program.
+# TODO(Pranith): change to https://<your-github-username>.github.io/<repo-name>/
+site_url: https://CHANGE-ME.github.io/cyber-course/
+repo_url: https://github.com/CHANGE-ME/cyber-course
+repo_name: cyber-course
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/shield-lock
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - How this course works: how-it-works.md
+      - Roadmap (16 weeks): roadmap.md
+      - Set up your workspace: setup/codespaces.md
+      - Set up Kali Linux: setup/kali.md
+      - Tools cheat-sheet: setup/tools.md
+  - Modules:
+      - Overview: modules/index.md
+      - "M1 · Terminal & Bash": modules/01-bash.md
+      - "M2 · Networking": modules/02-networking.md
+      - "M3 · Python for Security": modules/03-python.md
+      - "M4 · Security+ Foundations": modules/04-security-foundations.md
+      - "M5 · Cryptography": modules/05-crypto.md
+      - "M6 · Web Security": modules/06-web.md
+      - "M7 · Kali & Pen Testing": modules/07-pentest.md
+      - "M8 · Network Security & Wireshark": modules/08-network-security.md
+      - "M9 · Malware & Forensics": modules/09-forensics.md
+      - "M10 · Privacy, Governance & Cloud": modules/10-privacy-governance.md
+      - "M11 · Capstone": modules/11-capstone.md
+  - CTF & Practice:
+      - Bash CTF (in this repo): ctf/bash-ctf.md
+      - Online practice platforms: ctf/platforms.md
+  - Certifications: certs.md
+  - Progress:
+      - My progress tracker: progress.md
+      - Lab journal: journal.md
+  - Mentor:
+      - Mentor guide (Pranith): mentor/guide.md
+      - Weekly check-in template: mentor/checkin.md
