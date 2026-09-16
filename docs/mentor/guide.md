@@ -25,7 +25,7 @@ Use the [check-in template](checkin.md) to keep notes.
 ## Phase gates
 
 - **Weeks 1–10** run entirely in **GitHub Codespaces** (browser). No install friction — good, because setup pain is where beginners quit.
-- **Week 11** is the **Kali install call** — do this live with her (see [Kali setup](../setup/kali.md)). Find out her laptop first: **Intel/AMD → VirtualBox**; **Apple Silicon Mac → UTM with the ARM64 image**; **weak laptop → TryHackMe's in-browser Kali** and skip local install.
+- **Week 11** is the **Kali install call** — do this live with her (see [Kali setup](../setup/kali.md)). She's on **Windows**, so it's **VirtualBox + the prebuilt Kali image**. Watch for the two classic snags: **VT-x/AMD-V disabled in BIOS** and **Hyper-V conflicting with VirtualBox**. If her laptop is low on RAM (≤8 GB) and struggles, fall back to **TryHackMe's in-browser Kali** — she can do Modules 7–9 entirely there.
 
 ## Grading her readiness (be generous but honest)
 
