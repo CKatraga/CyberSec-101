@@ -1,0 +1,8 @@
+site/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+labs/01-bash/playground/
+labs/01-bash/.secret
+.DS_Store
