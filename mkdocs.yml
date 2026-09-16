@@ -1,9 +1,8 @@
 site_name: Chandana's Cyber Path
 site_description: A visual, hands-on cybersecurity course mapped to the AUM MS Cybersecurity program.
-# TODO(Pranith): change to https://<your-github-username>.github.io/<repo-name>/
-site_url: https://CHANGE-ME.github.io/cyber-course/
-repo_url: https://github.com/CHANGE-ME/cyber-course
-repo_name: cyber-course
+site_url: https://PranithChowdary.github.io/CyberSec-101/
+repo_url: https://github.com/PranithChowdary/CyberSec-101
+repo_name: PranithChowdary/CyberSec-101
 edit_uri: edit/main/docs/
 
 theme:
