@@ -1,8 +1,8 @@
 site_name: Chandana's Cyber Path
 site_description: A visual, hands-on cybersecurity course mapped to the AUM MS Cybersecurity program.
-site_url: https://PranithChowdary.github.io/CyberSec-101/
-repo_url: https://github.com/PranithChowdary/CyberSec-101
-repo_name: PranithChowdary/CyberSec-101
+site_url: https://CKatraga.github.io/CyberSec-101/
+repo_url: https://github.com/CKatraga/CyberSec-101
+repo_name: CKatraga/CyberSec-101
 edit_uri: edit/main/docs/
 
 theme:
